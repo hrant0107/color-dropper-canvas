@@ -1,15 +1,36 @@
-# Color Dropper
+Color Dropper App
 
-This project gives you ability to drop color from canvas and use it also there is preview part which is make drop mor user friendly
 
-## How To Run
+Overview
+The Color Dropper App is a React application that allows users to pick and preview colors from a canvas. The application provides a simple interface for selecting colors directly from an image or a color grid.
 
-In the project directory, you need run:
+Features
+Color Picker: Select any color from the canvas by clicking on it.
+Color Preview: Preview the color as you hover over the canvas.
+Responsive: Handles window scroll and resize events to ensure accurate color picking.
+Technologies Used
+React: A JavaScript library for building user interfaces.
+TypeScript: A superset of JavaScript that adds static types.
+CSS: Styling for the application.
+Installation
+To get started with the project, follow these steps:
 
-### `npm install`
+Clone the repository:
 
-### `npm start`
+git clone https://github.com/yourusername/color-dropper-app.git
+cd color-dropper-app
+Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npm install
+Start the development server:
+
+bash
+Копировать код
+npm start
+The app should now be running on http://localhost:3000.
+
+Usage
+Open the App: Navigate to http://localhost:3000 in your browser.
+Enable Color Dropper: Click the color picker icon to activate the color dropper.
+Pick a Color: Move your mouse over the canvas to preview colors and click to select a color. The selected color will be displayed at the top.
 
