@@ -1,0 +1,29 @@
+.previewColor {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.previewColor__content {
+    position: relative;
+}
+
+.previewColor__content__plus {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+.previewColor__content__text {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, 50%);
+    background: #dfdfdf;
+    padding: 2px;
+    border-radius: 4px;
+    font-weight: 900;
+}
